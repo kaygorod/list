@@ -1,5 +1,6 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
 @import "bootstrap";
-
 
 /* universal */
 
@@ -62,13 +63,13 @@ p {
   font-size: 1.7em;
   color: #fff;
   letter-spacing: -1px;
-  padding-top: 9px;
+  padding-top: 12px;
   font-weight: bold;
   line-height: 1;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #eaeaea;
   text-decoration: none;
 }
 
